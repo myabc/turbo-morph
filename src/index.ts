@@ -1,5 +1,5 @@
 import morphdom from "morphdom"
-import { TurboStreamActions, StreamElement } from "@hotwired/turbo"
+import type { TurboStreamActions, StreamElement } from "@hotwired/turbo"
 
 function morph(this: StreamElement) {
   const options = {
